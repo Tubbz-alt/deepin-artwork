@@ -1,0 +1,7 @@
+#! /usr/bin/make -f
+%:
+	dh $@
+
+override_dh_installdirs:
+	dh_installdirs
+	debian/generate-wallpaper-xml.sh

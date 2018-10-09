@@ -1,0 +1,15 @@
+Source: deepin-artwork
+Section: misc
+Priority: optional
+Maintainer: LiLongyu <lilongyu@linuxdeepin.com>
+Standards-Version: 3.9.2
+Build-Depends: debhelper (>= 8),
+
+Package: deepin-artwork
+Architecture: all
+Depends: ${misc:depends},
+    deepin-icon-theme,
+    deepin-gtk-theme,
+Suggests: grub-theme-deepin
+Description: Deepin Artwork 
+ This package is a meta package of Deepin Artworks.
